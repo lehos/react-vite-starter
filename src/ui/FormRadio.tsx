@@ -1,6 +1,6 @@
-import { Field } from 'react-final-form'
 import { Radio as AntRadio } from 'antd'
 import { RadioProps } from 'antd/lib/radio'
+import { Field } from 'react-final-form'
 
 interface Props extends RadioProps {
   name: string

@@ -1,5 +1,5 @@
-import { ReactNode, useState } from 'react'
 import { Layout } from 'antd'
+import { ReactNode, useState } from 'react'
 
 import { ErrorBoundary } from '@/ui/ErrorBoundary'
 

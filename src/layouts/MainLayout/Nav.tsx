@@ -1,9 +1,6 @@
-import { Link, useLocation } from 'react-router-dom'
+import { HomeOutlined, UserOutlined } from '@ant-design/icons'
 import { Menu } from 'antd'
-import {
-  HomeOutlined,
-  UserOutlined,
-} from '@ant-design/icons'
+import { Link, useLocation } from 'react-router-dom'
 
 import * as S from './styles'
 

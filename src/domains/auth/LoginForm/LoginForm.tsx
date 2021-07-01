@@ -1,17 +1,16 @@
-import { Form } from 'react-final-form'
-import { useHistory } from 'react-router'
-
 import { Button } from 'antd'
-import { FormInput } from '@/ui/FormInput'
+import { Form } from 'react-final-form'
+import { useHistory } from 'react-router-dom'
 
+import { FormInput } from '@/ui/FormInput'
 import * as CS from '@/ui/common'
+
 import * as S from './styles'
 
 export function LoginForm() {
   const history = useHistory()
 
   function submit() {
-    console.log(1)
     history.push('/')
   }
 
@@ -33,7 +32,7 @@ export function LoginForm() {
           </CS.FormRow>
 
           <CS.FormRow>
-            <CS.FormLabel></CS.FormLabel>
+            <CS.FormLabel />
             <Button size="large" onClick={submit}>
               Войти
             </Button>

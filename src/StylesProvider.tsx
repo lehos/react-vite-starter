@@ -1,6 +1,7 @@
-import { ReactNode } from 'react'
-import { CacheProvider, Global, css } from '@emotion/react'
+// eslint-disable-next-line import/no-extraneous-dependencies
 import createCache from '@emotion/cache'
+import { CacheProvider, Global, css } from '@emotion/react'
+import { ReactNode } from 'react'
 
 const cache = createCache({
   key: 'react-vite-starter',

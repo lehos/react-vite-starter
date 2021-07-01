@@ -21,7 +21,8 @@
     "lib": ["DOM", "ESNext"],
     "rootDir": ".",
 
-    "incremental": true
+    "incremental": true,
+    "skipLibCheck": true
   },
   "include": ["./src"],
 }

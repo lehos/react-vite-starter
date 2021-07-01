@@ -1,14 +1,14 @@
 /// <reference types="@emotion/react/types/css-prop" />
 
 import { Suspense, lazy } from 'react'
-import { Route, Switch, RouteProps, Router } from 'react-router-dom'
 import { QueryClientProvider } from 'react-query'
 import { ReactQueryDevtools } from 'react-query/devtools'
+import { Route, RouteProps, Router, Switch } from 'react-router-dom'
 
 import 'antd/dist/antd.css'
 
-import { queryClient } from '@/core/query'
 import { History } from '@/core/history'
+import { queryClient } from '@/core/query'
 
 import { MainLayout } from '@/layouts/MainLayout'
 

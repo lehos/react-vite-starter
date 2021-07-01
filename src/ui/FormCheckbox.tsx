@@ -1,7 +1,6 @@
-import { Field } from 'react-final-form'
-
 import { Checkbox } from 'antd'
 import { CheckboxProps } from 'antd/lib/checkbox'
+import { Field } from 'react-final-form'
 
 interface Props extends CheckboxProps {
   name: string
