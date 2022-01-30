@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "types": ["vite/client", "node"],
+    "types": ["vite/client", "node", "@honkhonk/vite-plugin-svgr/client"],
     "esModuleInterop": false,
     "isolatedModules": true,
     "noEmit": true,

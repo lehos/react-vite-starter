@@ -1,5 +1,6 @@
 import path from 'path'
 
+import svgr from '@honkhonk/vite-plugin-svgr'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
@@ -10,14 +11,15 @@ export default defineConfig({
     jsxFactory: 'jsx',
     jsxInject: `import { jsx } from '@emotion/react'`,
   },
-  plugins: [react(
-    {
-      jsxImportSource: "@emotion/react",
+  plugins: [
+    svgr(),
+    react({
+      jsxImportSource: '@emotion/react',
       babel: {
-        plugins: ["@emotion/babel-plugin"],
+        plugins: ['@emotion/babel-plugin'],
       },
-    }
-  )],
+    }),
+  ],
   resolve: {
     alias: {
       '@': SOURCE_PATH,

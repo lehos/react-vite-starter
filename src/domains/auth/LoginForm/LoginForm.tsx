@@ -6,6 +6,8 @@ import { FormInput } from '@/ui/FormInput'
 import * as CS from '@/ui/common'
 
 import * as S from './styles'
+// eslint-disable-next-line import/no-named-default
+import { default as User } from './user.svg?component'
 
 export function LoginForm() {
   const history = useHistory()
@@ -45,6 +47,8 @@ export function LoginForm() {
             text
             <S.Temp>temp in text</S.Temp>
           </S.Text>
+
+          <User />
         </S.Form>
       )}
     />
