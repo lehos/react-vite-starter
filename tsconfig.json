@@ -9,9 +9,6 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "outDir": "./.ts",
-
-    "moduleResolution": "node",
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -19,10 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "lib": ["DOM", "ESNext"],
-    "rootDir": ".",
-
-    "incremental": true,
-    "skipLibCheck": true
+    "moduleResolution": "node"
   },
   "include": ["./src"],
 }

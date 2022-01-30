@@ -1,11 +1,11 @@
 ### Install
-    yarn install
+    npm install
 
 ### Develop
-    yarn dev
+    npm run dev
 
 ### Build
-    yarn build
+    npm run build
 
 ### deploy to gh-pages
-    yarn deploy
+    npm run deploy

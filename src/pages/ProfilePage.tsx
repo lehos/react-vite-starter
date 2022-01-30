@@ -9,12 +9,10 @@ export default function ProfilePage() {
   }
 
   return (
-    <>
-      <span>
-        <Button onClick={logOut} onKeyDown={logOut}>
-          Выйти
-        </Button>
-      </span>
-    </>
+    <span>
+      <Button onClick={logOut} onKeyDown={logOut}>
+        Выйти
+      </Button>
+    </span>
   )
 }

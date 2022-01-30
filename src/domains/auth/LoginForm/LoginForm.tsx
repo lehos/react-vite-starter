@@ -37,6 +37,14 @@ export function LoginForm() {
               Войти
             </Button>
           </CS.FormRow>
+
+          <S.Temp>temp</S.Temp>
+          <S.Temp test>temp test</S.Temp>
+          <S.Text css={S.testCss}>text</S.Text>
+          <S.Text>
+            text
+            <S.Temp>temp in text</S.Temp>
+          </S.Text>
         </S.Form>
       )}
     />
